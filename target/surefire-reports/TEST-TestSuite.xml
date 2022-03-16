@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.953" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ggiraud/Documents/estudos/cucumber/target/test-classes:/Users/ggiraud/Documents/estudos/cucumber/target/classes:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/ggiraud/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-testng/6.10.4/cucumber-testng-6.10.4.jar:/Users/ggiraud/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/ggiraud/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ggiraud/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ggiraud/Documents/estudos/cucumber/target/surefire/surefirebooter1967466667710888041.jar /Users/ggiraud/Documents/estudos/cucumber/target/surefire 2022-03-16T17-27-25_281-jvmRun1 surefire3157217517097316169tmp surefire_04347812471333283245tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ggiraud/Documents/estudos/cucumber/target/test-classes:/Users/ggiraud/Documents/estudos/cucumber/target/classes:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/ggiraud/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/ggiraud/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/ggiraud/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/ggiraud/.m2/repository/io/cucumber/cucumber-testng/6.10.4/cucumber-testng-6.10.4.jar:/Users/ggiraud/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/ggiraud/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ggiraud/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ggiraud"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ggiraud/Documents/estudos/cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/ggiraud/Documents/estudos/cucumber/target/surefire/surefirebooter1967466667710888041.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="user.name" value="ggiraud"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ggiraud/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/rf/j46hv_td04b36mlgblkgfbpn1t4ht3/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/ggiraud/Documents/estudos/cucumber"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ggiraud/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User should be able to login with valid credentials&quot;, &quot;Optional[Web login]&quot;](1)" classname="runners.RunCucumber" time="0.09">
+    <system-out><![CDATA[The user is on
+Entered your name
+Clicked on submmit
+you are on
+]]></system-out>
+  </testcase>
+</testsuite>
